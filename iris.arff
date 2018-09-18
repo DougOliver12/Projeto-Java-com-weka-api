@@ -1,0 +1,136 @@
+@relation economia
+
+@attribute estrada
+@attribute morro
+@attribute 7vel
+@attribute dualogic
+@attribute tiptronic
+@attribute cvt
+@attribute overdrive
+@attribute paddle_shift
+@attribute manual
+@attribute sequencial
+
+@attribute class {Altissimo_consumo, Alto_consumo, Baixo_Consumo, Muito_economico}
+
+@data
+11,10,10,12,13,11,13,13,10,10,Altissimo_consumo
+11,12,13,10,13,10,13,12,11,12,Altissimo_consumo
+11,13,10,10,10,12,12,13,11,10,Altissimo_consumo
+11,13,13,13,12,13,10,10,11,10,Altissimo_consumo
+11,10,12,11,13,12,12,13,10,13,Altissimo_consumo
+11,10,12,13,12,11,11,10,10,11,Altissimo_consumo
+11,11,13,13,11,10,12,13,10,12,Altissimo_consumo
+12,11,10,12,13,11,11,11,10,12,Altissimo_consumo
+12,13,12,12,10,10,11,12,11,10,Altissimo_consumo
+12,11,13,10,11,12,10,10,10,12,Altissimo_consumo
+11,11,10,12,11,10,13,10,10,10,Altissimo_consumo
+11,13,12,11,10,10,11,12,12,13,Altissimo_consumo
+12,13,11,10,13,10,10,10,12,10,Altissimo_consumo
+12,11,13,10,12,13,11,11,10,10,Altissimo_consumo
+12,10,10,13,10,10,10,13,13,10,Altissimo_consumo
+11,10,10,10,13,13,10,13,10,10,Altissimo_consumo
+12,11,10,10,10,12,11,12,13,12,Altissimo_consumo
+12,10,10,10,12,13,12,12,10,13,Altissimo_consumo
+11,13,10,10,12,13,10,13,10,10,Altissimo_consumo
+11,12,13,10,13,10,12,13,10,10,Altissimo_consumo
+11,12,10,12,10,11,10,12,10,12,Altissimo_consumo
+11,12,10,10,10,10,10,11,11,10,Altissimo_consumo
+12,13,13,10,11,11,13,10,11,10,Altissimo_consumo
+12,12,13,13,10,12,12,11,10,10,Altissimo_consumo
+12,11,11,11,10,11,13,13,12,12,Altissimo_consumo
+11,11,11,11,13,11,10,10,10,12,Altissimo_consumo
+11,13,13,11,13,10,12,12,10,13,Altissimo_consumo
+11,13,12,11,12,10,11,12,12,11,Altissimo_consumo
+11,11,10,11,12,13,13,12,12,10,Altissimo_consumo
+12,13,10,12,10,12,10,11,11,10,Altissimo_consumo
+12,11,12,10,12,12,10,11,10,10,Altissimo_consumo
+12,10,11,10,10,13,11,10,10,13,Altissimo_consumo
+11,12,12,10,12,10,12,10,10,13,Altissimo_consumo
+11,13,10,13,12,10,10,13,10,11,Altissimo_consumo
+11,13,13,13,12,12,10,10,10,11,Altissimo_consumo
+12,10,12,10,11,13,10,10,12,10,Altissimo_consumo
+12,12,11,11,10,11,10,11,10,10,Altissimo_consumo
+11,13,10,10,12,10,10,11,10,12,Altissimo_consumo
+12,13,13,10,10,12,13,12,10,11,Altissimo_consumo
+12,10,13,13,12,11,11,10,11,12,Altissimo_consumo
+11,10,10,11,10,12,11,12,13,10,Altissimo_consumo
+11,10,12,13,13,10,10,10,13,11,Altissimo_consumo
+10,10,14,10,13,13,11,13,13,11,Alto_consumo
+10,10,12,10,14,11,14,14,11,13,Alto_consumo
+10,12,12,11,14,14,10,13,11,13,Alto_consumo
+10,11,13,10,14,11,13,12,11,14,Alto_consumo
+10,13,12,13,10,14,12,12,10,12,Alto_consumo
+10,11,10,12,11,12,13,13,12,11,Alto_consumo
+10,10,13,11,11,13,12,11,12,14,Alto_consumo
+10,14,11,14,12,12,11,13,11,11,Alto_consumo
+10,14,14,13,12,13,12,10,14,13,Alto_consumo
+10,11,14,14,13,12,10,12,10,11,Alto_consumo
+10,12,13,10,14,11,10,14,13,10,Alto_consumo
+10,13,12,13,11,10,11,13,11,14,Alto_consumo
+10,10,13,12,14,12,12,13,14,12,Alto_consumo
+10,10,14,11,10,10,11,14,13,11,Alto_consumo
+10,11,14,13,10,10,10,13,13,13,Alto_consumo
+10,14,14,13,11,10,11,14,14,10,Alto_consumo
+10,10,14,10,13,10,12,14,14,11,Alto_consumo
+10,14,11,13,12,10,10,13,11,12,Alto_consumo
+10,14,10,10,10,11,14,13,10,13,Alto_consumo
+10,11,14,14,13,13,14,12,14,10,Alto_consumo
+10,11,12,11,12,12,11,13,13,13,Alto_consumo
+14,11,10,11,14,13,12,13,13,13,Baixo_Consumo
+14,12,12,14,14,10,12,13,14,12,Baixo_Consumo
+14,10,13,11,11,12,12,13,14,11,Baixo_Consumo
+14,11,13,12,11,12,12,14,13,14,Baixo_Consumo
+14,14,11,14,12,11,14,10,12,11,Baixo_Consumo
+14,14,12,11,10,14,12,11,14,12,Baixo_Consumo
+14,14,13,11,11,12,11,11,13,12,Baixo_Consumo
+14,12,10,11,14,10,13,13,11,14,Baixo_Consumo
+14,12,10,13,10,13,11,11,14,13,Baixo_Consumo
+14,11,12,14,10,13,11,10,10,10,Baixo_Consumo
+14,12,11,13,12,11,13,13,12,10,Baixo_Consumo
+14,12,11,13,10,14,10,14,11,12,Baixo_Consumo
+14,11,13,11,13,13,12,13,14,11,Baixo_Consumo
+14,11,14,11,10,14,13,13,13,14,Baixo_Consumo
+14,13,10,12,14,12,12,12,14,14,Baixo_Consumo
+14,11,13,14,12,11,10,13,11,11,Baixo_Consumo
+14,12,14,11,12,12,11,11,14,13,Baixo_Consumo
+14,10,13,10,14,10,11,11,13,12,Baixo_Consumo
+14,14,14,13,11,10,11,13,13,11,Baixo_Consumo
+14,14,12,14,14,14,11,14,10,10,Baixo_Consumo
+14,14,12,10,14,13,12,14,10,14,Baixo_Consumo
+14,13,12,13,14,12,10,13,10,10,Baixo_Consumo
+14,11,11,11,10,14,12,12,12,10,Baixo_Consumo
+13,13,12,14,13,14,13,14,12,13,Muito_economico
+13,11,11,13,11,13,14,13,14,13,Muito_economico
+13,14,14,13,12,13,13,13,13,14,Muito_economico
+13,13,13,12,13,11,12,11,11,13,Muito_economico
+13,13,14,14,14,14,11,13,13,11,Muito_economico
+13,12,14,12,11,13,12,14,12,14,Muito_economico
+13,12,13,13,13,13,14,11,12,14,Muito_economico
+13,13,13,14,13,13,13,13,11,13,Muito_economico
+12,14,14,14,13,14,12,13,11,14,Muito_economico
+12,14,13,10,12,14,10,10,14,10,Muito_economico
+12,14,11,13,13,12,13,11,14,12,Muito_economico
+12,14,14,10,11,12,12,10,12,14,Muito_economico
+13,11,13,14,12,13,12,11,11,13,Muito_economico
+13,11,13,11,13,12,13,13,13,14,Muito_economico
+13,11,13,13,11,13,14,14,14,11,Muito_economico
+11,14,14,13,10,11,13,10,13,11,Muito_economico
+13,14,14,14,13,12,13,11,12,12,Muito_economico
+13,14,12,13,13,13,14,12,12,13,Muito_economico
+13,12,13,11,14,14,11,13,13,13,Muito_economico
+13,12,13,13,14,11,12,11,12,13,Muito_economico
+12,14,11,12,11,12,13,10,11,10,Muito_economico
+11,14,11,13,10,14,14,10,11,11,Muito_economico
+11,14,13,11,14,14,11,13,10,14,Muito_economico
+13,11,11,14,13,14,12,12,11,13,Muito_economico
+13,13,13,13,14,12,13,12,13,13,Muito_economico
+13,14,14,12,11,12,13,13,13,13,Muito_economico
+13,13,12,11,13,12,13,13,14,14,Muito_economico
+13,13,13,12,12,13,14,13,12,11,Muito_economico
+13,13,11,13,14,12,13,11,13,11,Muito_economico
+13,14,13,13,13,11,14,12,13,13,Muito_economico
+12,14,13,11,13,12,12,10,10,10,Muito_economico
+13,12,13,11,11,13,14,11,14,11,Muito_economico
+13,13,13,13,14,13,14,13,13,12,Muito_economico
+11,14,14,14,12,12,13,13,12,12,Muito_economico
