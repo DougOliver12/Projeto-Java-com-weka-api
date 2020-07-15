@@ -1,0 +1,106 @@
+@relation perfilTrabalhador
+
+@attribute pergunta1 {0,1,2,3}
+@attribute pergunta2 {0,1,2,3}
+@attribute pergunta3 {0,1,2,3}
+@attribute pergunta4 {0,1,2,3}
+@attribute pergunta5 {0,1,2,3}
+@attribute pergunta6 {0,1,2,3}
+@attribute pergunta7 {0,1,2,3}
+@attribute pergunta8 {0,1,2,3}
+@attribute pergunta9 {0,1,2,3}
+@attribute pergunta10 {0,1,2,3}
+
+@attribute class {Politico, Passivo, Colaborativo}
+
+@data
+3,3,3,3,3,2,3,3,3,3,Politico
+3,3,3,3,3,3,3,3,3,3,Politico
+1,1,1,1,1,0,1,1,1,1,Politico
+1,1,1,1,1,3,1,1,1,1,Politico
+3,3,3,3,3,0,3,3,3,3,Politico
+3,3,3,3,3,0,0,3,3,3,Politico
+3,3,3,3,3,1,1,3,3,3,Politico
+3,3,3,3,3,2,2,3,3,3,Politico
+1,1,1,1,1,3,3,3,1,1,Politico
+0,0,0,0,0,0,0,3,3,3,Politico
+3,3,3,3,3,0,0,0,3,3,Politico
+3,3,3,3,3,2,2,2,3,3,Politico
+0,0,0,0,0,1,1,1,1,0,Politico
+0,0,0,0,0,3,3,3,3,0,Politico
+3,3,3,3,3,0,0,0,0,3,Politico
+3,3,3,3,3,1,1,1,1,3,Politico
+3,3,3,3,3,2,2,2,2,3,Politico
+0,0,0,0,0,1,1,1,1,1,Politico
+0,0,0,0,0,3,3,3,3,3,Politico
+1,1,1,1,1,3,3,3,3,3,Politico
+2,2,2,2,2,1,1,1,1,1,Politico
+2,2,2,2,2,3,3,3,3,3,Politico
+3,3,3,3,3,0,0,0,0,0,Politico
+3,3,3,3,3,2,2,2,2,2,Politico
+2,0,0,0,0,0,0,0,0,3,Politico
+3,0,0,0,0,0,0,0,0,1,Politico
+3,0,0,0,0,0,0,0,0,2,Politico
+1,0,0,0,0,0,0,0,0,2,Politico
+1,0,0,0,0,0,0,0,0,3,Politico
+3,0,0,0,0,0,0,0,0,0,Politico
+1,0,0,0,0,0,0,0,0,0,Politico
+0,0,0,0,0,0,0,0,1,3,Politico
+1,1,1,1,1,0,0,0,0,1,Passivo
+0,1,1,1,2,0,0,1,2,1,Passivo
+0,1,1,1,3,0,0,1,2,0,Passivo
+2,2,2,2,2,2,2,2,2,2,Passivo
+0,0,0,0,0,1,0,0,0,0,Passivo
+0,0,0,0,0,2,0,0,0,0,Passivo
+0,0,0,0,0,3,0,0,0,0,Passivo
+2,2,2,2,2,0,2,2,2,2,Passivo
+2,2,2,2,2,1,2,2,2,2,Passivo
+2,2,2,2,2,3,2,2,2,2,Passivo
+0,3,2,3,3,2,1,1,2,0,Passivo
+0,0,0,0,0,3,3,0,0,0,Passivo
+0,0,0,0,0,1,1,0,0,0,Passivo
+2,2,2,2,2,0,0,2,2,2,Passivo
+2,2,2,2,2,1,1,2,2,2,Passivo
+2,2,2,2,2,3,3,2,2,2,Passivo
+0,0,0,0,0,1,1,1,0,0,Passivo
+0,0,0,0,0,2,2,2,0,0,Passivo
+0,0,0,0,0,3,3,3,0,0,Passivo
+1,1,1,1,1,0,0,0,1,1,Passivo
+1,1,1,1,1,2,2,2,1,1,Passivo
+2,2,2,2,2,0,0,0,2,2,Passivo
+2,2,2,2,2,1,1,1,2,2,Passivo
+2,2,2,2,2,3,3,3,2,2,Passivo
+0,0,0,0,0,0,0,0,1,1,Passivo
+0,3,3,2,2,0,0,1,2,0,Passivo
+1,1,1,1,1,2,2,2,2,1,Passivo
+2,2,2,2,2,0,0,0,0,2,Passivo
+2,2,2,2,2,1,1,1,1,2,Passivo	
+0,3,2,2,2,0,0,1,2,1,Colaborativo
+0,0,0,0,2,0,0,1,2,0,Colaborativo
+0,0,0,0,0,2,2,2,2,0,Colaborativo
+0,0,0,0,0,0,0,0,2,1,Colaborativo
+0,0,0,0,0,0,0,0,2,3,Colaborativo
+2,0,0,0,0,0,0,0,0,0,Colaborativo
+0,0,1,0,0,0,0,1,2,0,Colaborativo
+0,0,2,0,2,0,0,1,2,0,Colaborativo
+0,0,3,0,2,0,0,1,2,0,Colaborativo
+0,1,0,0,2,0,0,1,2,0,Colaborativo
+0,1,2,0,2,0,0,0,1,0,Colaborativo
+0,2,0,0,2,0,0,1,2,0,Colaborativo
+0,3,0,0,2,0,0,1,2,0,Colaborativo
+0,3,0,1,2,0,0,1,2,0,Colaborativo
+0,3,0,2,2,0,0,1,2,0,Colaborativo
+0,3,0,3,2,0,0,1,2,0,Colaborativo
+0,1,0,2,2,0,0,1,2,0,Colaborativo
+0,1,0,1,2,0,0,1,2,0,Colaborativo
+0,1,0,3,2,0,0,1,2,0,Colaborativo
+0,1,1,2,2,0,0,1,2,0,Colaborativo
+0,1,1,3,2,0,0,1,2,0,Colaborativo
+0,1,1,0,2,0,0,1,2,0,Colaborativo
+0,1,1,1,2,0,0,1,2,0,Colaborativo
+0,2,2,2,2,0,0,1,2,0,Colaborativo
+0,2,2,2,2,0,0,0,2,0,Colaborativo
+0,0,0,0,0,0,0,0,3,3,Colaborativo
+0,3,0,2,2,0,0,2,2,0,Colaborativo
+0,0,0,0,0,0,0,0,0,0,Colaborativo
+0,0,0,0,0,2,2,0,0,0,Colaborativo
